@@ -118,6 +118,23 @@ const SkillImage = styled.img`
   height: 24px;
 `
 
+const Tag = styled.span`
+    font-size: 12px;
+    font-weight: 400;
+    color: ${({ theme }) => theme.primary};
+    background-color: ${({ theme }) => theme.primary + 15};
+    padding: 2px 8px;
+    border-radius: 10px;
+`
+
+const SkillContent = styled.div`
+    display: flex;
+    gap: 6px;
+    
+    @media (max-width: 768px) {  
+        flex-direction: column;  
+    }
+`
 
 const Skills = () => {
   return (
@@ -133,8 +150,16 @@ const Skills = () => {
               <SkillList>
                 {skill.skills.map((item) => (
                   <SkillItem>
-                    <SkillImage src={item.image}/>
-                    {item.name}
+                    <SkillImage src={item.image} />
+                    <SkillContent>
+                      <div>{item.name}</div>
+                      {item.links && (
+                        <div>
+                          <Tag><a href={item.links.leetcode} target="_blank">Leetcode</a></Tag>
+                          <Tag><a href={item.links.geeksforgeeks} target="_blank">GeeksforGeeks</a></Tag>
+                        </div>
+                      )}
+                    </SkillContent>
                   </SkillItem>
                 ))}
               </SkillList>

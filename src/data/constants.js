@@ -170,9 +170,13 @@ export const skills = [
         "image": "https://img.icons8.com/?size=100&id=nCj4PvnCO0tZ&format=png&color=000000"
       },
       {
-        name: "Problem-solving (Solving problems on platforms like Leetcode, GeeksforGeeks)",
+        name: "Problem-solving",
         image:
           "https://img.icons8.com/?size=100&id=MdqtGh8jocCe&format=png&color=000000",
+        links: {
+          leetcode: "https://leetcode.com/u/_Swetha_Selvamurugan/",
+          geeksforgeeks: "https://www.geeksforgeeks.org/user/swetha0m105/",
+        },
       },
     ],
   },
