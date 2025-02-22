@@ -25,7 +25,7 @@ import BlogPortfolio from '../images/BlogProject.png';
 import JokesGenerator from '../images/JokesGenerator.png';
 import QuickCart from '../images/QuickCart.png';
 import MEIIntern from '../images/MEI-Intern.jpg';
-// import CodeHydrideIntern from '../images/CodeHydride-Intern.png';
+import CodeHydrideIntern from '../images/CodeHydride-Intern.png';
 
 export const Bio = {
   name: "Swetha",
@@ -34,10 +34,9 @@ export const Bio = {
     "MERN Stack Developer"
   ],
   description:
-    "Fresher IT student and full-stack developer skilled in the MERN stack (MongoDB, Express.js, React, Node.js) with experience in frontend/backend development, API integration, and CRUD operations. I’m eager to apply my skills in a collaborative, growth-oriented environment where I can continue to learn and innovate.",
+    "Fresher IT student and full-stack developer skilled in the MERN stack (MongoDB, Express.js, React, Node.js) with experience in frontend/backend development, API integration, CRUD operations, authentication security, and cloud deployment. I’m eager to apply my skills in a collaborative, growth-oriented environment where I can continue to learn and innovate.",
   github: "https://github.com/swethaselvamurugan",
-  resume:
-    "https://drive.google.com/file/d/14Qaf4GnsgR_MrGBoPhFYcL-Sua4Qkjxl/view?usp=sharing",
+  resume: "https://drive.google.com/file/d/1DoAmPnHkR7JlMe_szHWkqrvg2FbsotD7/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/swetha-full-stack-mern/",
 };
 
@@ -186,11 +185,10 @@ export const experiences = [
   {
     id: 0,
     img: CodeHydride,
-    certificate: ProjectManagement,
-    // certificate: CodeHydrideIntern,
+    certificate: CodeHydrideIntern,
     role: "Intern",
     company: "Code Hydride",
-    date: "Aug 2024 - Feb 2025",
+    date: "Aug 2024 - Nov 2024",
     desc: "I worked as an intern at Code Hydride, where I contributed to a real-time e-learning platform built using the MERN stack. I got to explore tools like Asana, TypeScript, and Shadcn, which helped me level up my technical skills. Beyond coding, I also gained valuable experience in handling MOM (Minutes of Meeting), maintaining email etiquette, and keeping track of project timelines.",
     skills: [
       "Asana",
@@ -198,7 +196,7 @@ export const experiences = [
       "TypeScript",
       "Github"
     ],
-    doc: "https://drive.google.com/file/d/1MOIz0oHbV-ADI1d5NbfrjLIxEKTZS6kC/view?usp=sharing",
+    doc: "https://drive.google.com/file/d/1zBr_-kRBIKKVcjWPniWoW0CRBI7RTXJc/view?usp=drive_link",
   },
   {
     id: 1,
