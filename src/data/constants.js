@@ -11,7 +11,7 @@ import Simplilearn from '../images/Simplilearn-Logo.jpg';
 import Coursera from '../images/Coursera-Logo.jpg';
 import Google from '../images/Google-Logo.jpg';
 import be10x from '../images/be10x-Logo.png';
-import Accenture from '../images/Accenture-Logo.jpg';
+import GeeksforGeeks from '../images/GeeksforGeeks-Logo.jpg';
 import Excel from '../images/Excel.png';
 import GenerativeAI from '../images/GenerativeAI.png';
 import Python from '../images/Python.png';
@@ -36,7 +36,7 @@ export const Bio = {
   description:
     "Fresher IT student and full-stack developer skilled in the MERN stack (MongoDB, Express.js, React, Node.js) with experience in frontend/backend development, API integration, CRUD operations, authentication security, and cloud deployment. I’m eager to apply my skills in a collaborative, growth-oriented environment where I can continue to learn and innovate.",
   github: "https://github.com/swethaselvamurugan",
-  resume: "https://drive.google.com/file/d/1DoAmPnHkR7JlMe_szHWkqrvg2FbsotD7/view?usp=sharing",
+  resume: "https://drive.google.com/file/d/1o1mh_OAKtB-H9OY5muc8sgGOGiTDk5Px/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/swetha-full-stack-mern/",
 };
 
@@ -169,6 +169,10 @@ export const skills = [
         "image": "https://img.icons8.com/?size=100&id=nCj4PvnCO0tZ&format=png&color=000000"
       },
       {
+        "name": "ShadCN",
+        "image": "https://ui.shadcn.com/favicon.ico"
+      },
+      {
         name: "Problem-solving",
         image:
           "https://img.icons8.com/?size=100&id=MdqtGh8jocCe&format=png&color=000000",
@@ -205,10 +209,10 @@ export const experiences = [
     role: "Intern",
     company: "Madras Engineering Industries",
     date: "5 Mar 2024 - 21 Mar 2024",
-    desc: "During my internship at Madras Engineering Industries, I focused on building a strong foundation in Python. I worked on enhancing my problem-solving skills, learning key concepts and techniques that helped me tackle coding challenges more effectively.",
+    desc: "During my internship at Madras Engineering Industries, I gained basic knowledge of Python and MySQL, focusing on understanding core concepts. I explored MySQL fundamentals, including DDL, DML, DCL, and TCL operations, to understand how databases are structured and managed.",
     skills: [
       "Python",
-      "Problem-solving",
+      "MySQL",
     ],
     doc: "https://drive.google.com/file/d/1VI5NmjUNXcph4diADNLfqsyFoqCvnIkC/view?usp=sharing",
   },
@@ -235,21 +239,21 @@ export const certifications = [
   },
   {
     id: 2,
+    img: GeeksforGeeks,
+    certificate: Python,
+    role: "Python",
+    company: "GeeksforGeeks",
+    date: "Completed on 26 Feb 2025",
+    doc: "https://drive.google.com/file/d/11R0sKdSuFaOCjW_Sg4FPqd2PbUqGunwN/view?usp=drive_link",
+  },
+  {
+    id: 3,
     img: Coursera,
     certificate: ProjectManagement,
     role: "Introduction to Project Management",
     company: "Coursera",
     date: "Completed on 16 Nov 2024",
     doc: "https://drive.google.com/file/d/19fGxWFdM3pSSn2X_XL4t1zyvQSjEj-yF/view?usp=sharing",
-  },
-  {
-    id: 3,
-    img: Accenture,
-    certificate: Python,
-    role: "Python",
-    company: "Accenture",
-    date: "Completed on 6 Jan 2025",
-    doc: "https://drive.google.com/file/d/11s3AOVBCPqpCqUBuGbHKGjqPnnzPYPIj/view?usp=sharing",
   },
   {
     id: 4,
@@ -294,7 +298,7 @@ export const education = [
     id: 1,
     img: StMarys,
     school: "St. Mary’s Matric. Hr. Sec. School, Cuddalore.",
-    date: "2022",
+    date: "2021 - 2022",
     grade: "89.67%",
     desc: "I completed my class 12 high school education at St. Mary's School, Cuddalore, with a focus on Mathematics, Physics, Chemistry and Biology.",
     degree: "HSC - 12th Grade",
@@ -303,7 +307,7 @@ export const education = [
     id: 2,
     img: StMarys,
     school: "St. Mary’s Matric. Hr. Sec. School, Cuddalore.",
-    date: "2020",
+    date: "2019 - 2020",
     grade: "90.8%",
     desc: "I completed my class 10 education at St. Mary's School, Cuddalore, with a focus on Mathematics, Science and Social Science.",
     degree: "SSC - 10th Grade",
