@@ -36,7 +36,7 @@ export const Bio = {
   description:
     "Fresher IT student and full-stack developer skilled in the MERN stack (MongoDB, Express.js, React, Node.js) with experience in frontend/backend development, API integration, CRUD operations, authentication security, and cloud deployment. I’m eager to apply my skills in a collaborative, growth-oriented environment where I can continue to learn and innovate.",
   github: "https://github.com/swethaselvamurugan",
-  resume: "https://drive.google.com/file/d/1o1mh_OAKtB-H9OY5muc8sgGOGiTDk5Px/view?usp=sharing",
+  resume: "https://drive.google.com/file/d/1P-yWDYuaZ--l0IjGQtdPgc0nnxvQOXan/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/swetha-full-stack-mern/",
 };
 
@@ -331,7 +331,7 @@ export const projects = [
     image: BulkMail,
     tags: ["MongoDB", "Express Js", "React", "Node Js", "NodeMailer"],
     github: "https://github.com/swethaselvamurugan/BulkMail.git",
-    webapp: "https://bulkmail-1-swa9.onrender.com",
+    webapp: "https://drive.google.com/file/d/1BT7f6nBTbzVc3MxjOPeL9W9yhnnrW1oa/view?usp=sharing",
   },
   {
     id: 2,
