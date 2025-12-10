@@ -152,7 +152,7 @@ const Skills = () => {
                   <SkillItem>
                     <SkillImage src={item.image} />
                     <SkillContent>
-                      <div>{item.name}</div>
+                      <div>{item.name}</div> 
                       {item.links && (
                         <div>
                           <Tag><a href={item.links.leetcode} target="_blank">Leetcode</a></Tag>

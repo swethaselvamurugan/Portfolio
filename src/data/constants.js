@@ -15,6 +15,7 @@ import GeeksforGeeks from '../images/GeeksforGeeks-Logo.jpg';
 import Excel from '../images/Excel.png';
 import GenerativeAI from '../images/GenerativeAI.png';
 import Python from '../images/Python.png';
+import DSA from '../images/DSA.png';
 import TripAdvisor from '../images/TripAdvisor.png';
 import Nostra from '../images/Nostra.png';
 import Greenden from '../images/Greenden.png';
@@ -30,13 +31,13 @@ import CodeHydrideIntern from '../images/CodeHydride-Intern.png';
 export const Bio = {
   name: "Swetha",
   roles: [
-    "Full Stack Web Developer",
+    "Full Stack Developer",
     "MERN Stack Developer"
   ],
   description:
-    "Fresher IT student and full-stack developer skilled in the MERN stack (MongoDB, Express.js, React, Node.js) with experience in frontend/backend development, API integration, CRUD operations, authentication security, and cloud deployment. I’m eager to apply my skills in a collaborative, growth-oriented environment where I can continue to learn and innovate.",
+    "Full-stack developer skilled in the MERN stack with hands-on experience in frontend and backend development, knowledge of Python programming, and DSA for efficient problem solving. Eager to contribute in a collaborative, growth-oriented environment.",
   github: "https://github.com/swethaselvamurugan",
-  resume: "https://drive.google.com/file/d/1P-yWDYuaZ--l0IjGQtdPgc0nnxvQOXan/view?usp=sharing",
+  resume: "https://drive.google.com/file/d/1B7b1fMd0lk2uAPQz5wPh-uAfoyTYEE9F/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/swetha-full-stack-mern/",
 };
 
@@ -69,7 +70,7 @@ export const skills = [
           "https://img.icons8.com/?size=100&id=123603&format=png&color=000000",
       },
       {
-        name: "Redux",
+        name: "Redux Toolkit",
         image:
           "https://img.icons8.com/?size=100&id=b6vIINYN0kfW&format=png&color=000000",
       },
@@ -92,16 +93,16 @@ export const skills = [
         image: "https://img.icons8.com/?size=100&id=2ZOaTclOqD4q&format=png&color=000000"
       },
       {
-        name: "MySQL",
-        image: "https://img.icons8.com/?size=100&id=UFXRpPFebwa2&format=png&color=000000",
-      },
-      {
         name: "MongoDB",
         image:
           "https://img.icons8.com/?size=100&id=bosfpvRzNOG8&format=png&color=000000",
       },
       {
-        name: "RESTful APIs",
+        name: "MySQL",
+        image: "https://img.icons8.com/?size=100&id=UFXRpPFebwa2&format=png&color=000000",
+      },
+      {
+        name: "RESTful API",
         image:
           "https://img.icons8.com/?size=100&id=21895&format=png&color=000000",
       },
@@ -110,9 +111,9 @@ export const skills = [
         image: "https://img.icons8.com/?size=100&id=pEAInx3HGXxB&format=png&color=FFFCFC",
       },
       {
-        name: "User Authentication",
+        name: "JSON Web Tokens",
         image:
-          "https://img.icons8.com/?size=100&id=cPrjfwMAWOhO&format=png&color=000000",
+          "https://img.icons8.com/?size=100&id=rHpveptSuwDz&format=png&color=000000",
       },
     ],
   },
@@ -173,7 +174,7 @@ export const skills = [
         "image": "https://ui.shadcn.com/favicon.ico"
       },
       {
-        name: "Problem-solving",
+        name: "DSA",
         image:
           "https://img.icons8.com/?size=100&id=MdqtGh8jocCe&format=png&color=000000",
         links: {
@@ -248,6 +249,15 @@ export const certifications = [
   },
   {
     id: 3,
+    img: Simplilearn,
+    certificate: DSA,
+    role: "Data Structures & Algorithms in Python",
+    company: "Simplilearn",
+    date: "Completed on 17 Sep 2025",
+    doc: "https://drive.google.com/file/d/1yi1QIVGRu6spCyyjPv11Cs0krVqtGnEh/view?usp=drive_link",
+  },
+  {
+    id: 4,
     img: Coursera,
     certificate: ProjectManagement,
     role: "Introduction to Project Management",
@@ -256,7 +266,7 @@ export const certifications = [
     doc: "https://drive.google.com/file/d/19fGxWFdM3pSSn2X_XL4t1zyvQSjEj-yF/view?usp=sharing",
   },
   {
-    id: 4,
+    id: 5,
     img: Simplilearn,
     certificate: Canva,
     role: "Canva for Beginners",
@@ -265,7 +275,7 @@ export const certifications = [
     doc: "https://drive.google.com/file/d/19tK2pSmC0Cc8TDZVFP0W12sF0-dBypFO/view?usp=sharing",
   },
   {
-    id: 5,
+    id: 6,
     img: Coursera,
     certificate: Excel,
     role: "Introduction to Microsoft Excel",
@@ -274,7 +284,7 @@ export const certifications = [
     doc: "https://drive.google.com/file/d/1HK0McqafJwH1DhfeAjx2MQWITwDhSy1K/view?usp=sharing",
   },
   {
-    id: 6,
+    id: 7,
     img: be10x,
     certificate: AItools,
     role: "AI tools Workshop",
@@ -290,8 +300,8 @@ export const education = [
     img: Jpr,
     school: "Jeppiaar Engineering College, Chennai.",
     date: "2022 - 2026",
-    grade: "8.3 CGPA",
-    desc: "I am currently pursuing a Bachelor's degree in Information Technology. I have completed 5 semesters and I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, System Design, and Computer Networks, among others.",
+    grade: "8.1 CGPA",
+    desc: "I am currently pursuing a Bachelor's degree in Information Technology. I have completed 7 semesters and I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others.",
     degree: "Bachelor of Technology - BTech, Information Technology",
   },
   {
@@ -318,7 +328,7 @@ export const projects = [
   {
     id: 0,
     title: "QuickCart",
-    description: "Developed a full-fledged MERN-stack e-commerce platform with admin and customer views, secure role-based authentication, payment processing, and cloud storage for product images. The project is designed to handle both the frontend and backend seamlessly for a complete shopping experience.",
+    description: "Built a full-stack MERN e-commerce platform with integrated admin and shopping panel, JWT authentication, reusable components, Redux Toolkit, CRUD operations and complete API integration. Applied end-to-end development practices for a seamless and reliable shopping experience",
     image: QuickCart,
     tags: ["MongoDB", "Express Js", "React", "Node Js", "Redux", "Cloudinary", "Paypal Developer"],
     github: "https://github.com/swethaselvamurugan/QuickCart.git",
